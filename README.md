@@ -15,6 +15,8 @@ docker run -dit -p 8000:5000 --name app_flask_05 tiennguyen142/my_flask:0.0.1
 docker login --username=tiennguyen142
 docker tag 39a2bf91fd82 tiennguyen142/my_flask:latest 
 docker push tiennguyen142/my_flask:latest 
+# note
+# if can not docker login, need to remove file config C:\Users\username\.docker\config.json
 
 
 
